@@ -45,10 +45,198 @@
 //int f = 9 % 5;
 //Console.WriteLine(f);
 
-int j = 64;
-double n = 3.14 * (j * j); 
-Console.WriteLine($" 3.14 * {j}² = {n} ");
+//int j = 20;
+//double n = 3.14 * (j * j); 
+//Console.WriteLine($" 3.14 * {j}² = {n} ");
 
-int a = 190;
-double b = (a - 32) * 5 / 9;
-Console.WriteLine($"{a}°F é igual a {b}°C");
+//int a = 158;
+//double b = (a - 32) * 5 / 9;
+//Console.WriteLine($"{a}°F é igual a {b}°C");
+
+
+
+
+
+//#region Atividade 1
+
+
+
+
+//int number1, number2, number3, number4, soma;
+//Console.Write("Digite o primeiro número: ");
+//number1 = int.Parse(Console.ReadLine()!);
+//Console.Write("Digite o segundo número: "); 
+//number2 = int.Parse(Console.ReadLine()!);
+//Console.Write("Digite o terceiro número: ");
+//number3 = int.Parse(Console.ReadLine()!);
+//Console.Write("Digite o quarto número: ");
+//number4 = int.Parse(Console.ReadLine()!);
+//soma = number1 + number2 + number3 + number4;
+//Console.WriteLine($"A soma dos números é: {soma}");
+
+
+
+
+
+
+
+//#endregion
+
+
+#region Atividade 2
+float j = 69.5f;
+float.Parse("69.5");
+double k = 9;
+double.Parse("9");
+double l =  k + j;
+Console.WriteLine($"{k} + {j} = {l}");
+
+
+
+
+#endregion
+
+
+
+#region Atividade 3
+
+
+
+char letra = Console.ReadKey().KeyChar;
+Console.WriteLine($"\nA letra digitada foi: {letra}");
+
+
+
+
+
+
+#endregion
+
+#region Atividade 4
+
+string nome;
+Console.Write("Digite seu nome: ");
+nome = Console.ReadLine()!;
+Console.WriteLine($"Olá {nome}, seja bem-vinda(o)!");
+
+
+
+
+
+
+
+
+#endregion
+
+#region Atividade 5
+decimal e = 0.15m;
+decimal w= 0.65m;
+decimal q = e * w;
+
+Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
+
+
+
+
+
+
+
+
+
+#endregion
+#region Atividade 6
+
+
+
+
+
+
+
+
+
+
+#endregion
+
+#region Atividade 7
+
+
+
+
+
+
+
+
+
+
+#endregion
+
+#region Atividade 8
+
+
+
+
+;
+
+
+
+
+
+
+#endregion
+
+#region Atividade 9
+
+
+
+
+
+
+
+
+
+
+#endregion
+
+#region Atividade 10
+
+
+
+
+
+
+
+
+
+#endregion
+
+
+#region Atividade 11
+
+
+
+
+
+
+
+
+
+#endregion
+
+
+
+#region Atividade 12
+
+
+
+
+int a = 100;
+double b = a * 9/5  + 32;
+Console.WriteLine($"{a}°C é igual a {b}°F");
+
+
+
+
+
+
+
+#endregion
