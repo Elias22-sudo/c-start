@@ -224,11 +224,16 @@ Console.WriteLine($"Você mora em {cidade} e tem {idade} anos.");
 #region Atividade 10
 
 
-int rua = 340;
-string bairro = "Centro";
-Console.WriteLine($"Você mora na rua {rua}, no bairro {bairro}.");
-
-
+int rua;
+string bairro;
+char caractere;
+Console.Write("Digite o número da sua rua: ");
+rua = int.Parse(Console.ReadLine()!);
+Console.Write("Digite o nome do seu bairro: ");
+bairro = Console.ReadLine()!;
+Console.Write("Digite um caractere especial: ");
+caractere = Console.ReadKey().KeyChar;
+Console.WriteLine($"\nVocê mora na rua {rua}, no bairro {bairro} e o caractere especial digitado foi: {caractere}");
 
 
 
