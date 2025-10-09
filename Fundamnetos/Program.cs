@@ -84,15 +84,13 @@
 
 
 #region Atividade 2
-float j = 69.5f;
-float.Parse("69.5");
-double k = 9;
-double.Parse("9");
-double l =  k + j;
-Console.WriteLine($"{k} + {j} = {l}");
-
-
-
+float number1, number2, soma;
+Console.Write("Digite o primeiro número: ");
+number1 = float.Parse(Console.ReadLine()!);
+Console.Write("Digite o segundo número: ");
+number2 = float.Parse(Console.ReadLine()!);
+soma = number1 + number2;
+Console.WriteLine($"A soma dos números é: {soma}");
 
 #endregion
 
@@ -129,11 +127,14 @@ Console.WriteLine($"Olá {nome}, seja bem-vinda(o)!");
 #endregion
 
 #region Atividade 5
-decimal e = 0.15m;
-decimal w= 0.65m;
-decimal q = e * w;
 
-Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
+decimal numero1, numero2, multiplicacao;
+Console.Write("Digite o primeiro número: ");
+numero1 = decimal.Parse(Console.ReadLine()!);
+Console.Write("Digite o segundo número: ");
+numero2 = decimal.Parse(Console.ReadLine()!);
+multiplicacao = numero1 * numero2;
+Console.WriteLine($"A multiplicação dos números é: {multiplicacao}");
 
 
 
@@ -145,7 +146,11 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 
 #endregion
 #region Atividade 6
-
+int quadrado;
+Console.Write("Digite um número: ");
+quadrado = int.Parse(Console.ReadLine()!);
+quadrado = quadrado * quadrado;
+Console.WriteLine($"O quadrado do número é: {quadrado}");
 
 
 
@@ -158,7 +163,13 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 #endregion
 
 #region Atividade 7
-
+double numero3, numero4, media;
+Console.Write("Digite o primeiro número: ");
+numero3 = double.Parse(Console.ReadLine()!);
+Console.Write("Digite o segundo número: ");
+numero4 = double.Parse(Console.ReadLine()!);
+media = (numero3 + numero4) / 2;
+Console.WriteLine($"A média dos números é: {media}");
 
 
 
@@ -171,11 +182,16 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 #endregion
 
 #region Atividade 8
+float subtrair;
+Console.Write("Digite um número: ");
+subtrair = float.Parse(Console.ReadLine()!);
+subtrair = subtrair - 10.5f;
+Console.WriteLine($"O resultado da subtração é: {subtrair}");
 
 
 
 
-;
+
 
 
 
@@ -187,6 +203,14 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 #region Atividade 9
 
 
+string cidade;
+int idade;
+
+Console.Write("Digite o nome da sua cidade: ");
+cidade = Console.ReadLine()!;
+Console.Write("Digite sua idade: ");
+idade = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Você mora em {cidade} e tem {idade} anos.");
 
 
 
@@ -200,6 +224,10 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 #region Atividade 10
 
 
+int rua = 340;
+string bairro = "Centro";
+Console.WriteLine($"Você mora na rua {rua}, no bairro {bairro}.");
+
 
 
 
@@ -211,7 +239,15 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 
 
 #region Atividade 11
-
+double media1, media2, media3, mediaponderada;
+Console.Write("Digite a primeira nota: ");
+media1 = double.Parse(Console.ReadLine()!);
+Console.Write("Digite a segunda nota: ");
+media2 = double.Parse(Console.ReadLine()!);
+Console.Write("Digite a terceira nota: ");
+media3 = double.Parse(Console.ReadLine()!);
+mediaponderada = (media1 * 2 + media2 * 3 + media3 * 5) / 10;
+Console.WriteLine($"A média ponderada é: {mediaponderada}");
 
 
 
@@ -229,12 +265,12 @@ Console.WriteLine($"{e} * {w} = {q.ToString("F2")}");
 
 
 
-int a = 100;
+int a;
+Console.Write("Digite a temperatura em Celsius: ");
+a = int.Parse(Console.ReadLine()!);
+
 double b = a * 9/5  + 32;
-Console.WriteLine($"{a}°C é igual a {b}°F");
-
-
-
+Console.WriteLine($"A temperatura em Fahrenheit é: {b}°F");
 
 
 
