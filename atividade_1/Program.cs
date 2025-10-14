@@ -49,15 +49,15 @@
 
 
 
-double number1, number2, number3, esfera;
-Console.WriteLine("Primeiro numero:");
-number1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Segundo numero:");
-number2 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Terceiro numero:");
-number3 = Convert.ToDouble(Console.ReadLine());
-esfera = 4 / 3 * 3.14 * Math.Pow(number3, 3);
-Console.WriteLine($"O volume da esfera é: {esfera}");
+// double number1, number2, number3, esfera;
+// Console.WriteLine("Primeiro numero:");
+// number1 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Segundo numero:");
+// number2 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Terceiro numero:");
+// number3 = Convert.ToDouble(Console.ReadLine());
+// esfera = 4 / 3 * 3.14 * Math.Pow(number3, 3);
+// Console.WriteLine($"O volume da esfera é: {esfera}");
 
 
 #endregion
@@ -82,15 +82,15 @@ Console.WriteLine($"O volume da esfera é: {esfera}");
 
 
 
-// double one, two, three, ponderada;
-// Console.WriteLine("O valor da primeira nota:");
-// one = Convert.ToDouble(Console.ReadLine());
-// Console.WriteLine("O valor da segunda nota:");
-// two = Convert.ToDouble(Console.ReadLine());
-// Console.WriteLine("O valor da terceira nota:");
-// three = Convert.ToDouble(Console.ReadLine());
-// ponderada = (one * 2 + two * 3 + three * 5) / 10;
-// Console.WriteLine($"A media ponderada é: {ponderada}");
+double one, two, three, ponderada;
+Console.WriteLine("O valor da primeira nota:");
+one = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("O valor da segunda nota:");
+two = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("O valor da terceira nota:");
+three = Convert.ToDouble(Console.ReadLine());
+ponderada = (one * 2 + two * 3 + three * 5) / 10;
+Console.WriteLine($"A media ponderada é: {ponderada}");
 
 #endregion
 
@@ -123,7 +123,6 @@ Console.WriteLine($"O volume da esfera é: {esfera}");
 
 #region atividade 9
 
-// #region atividade 9
 // double hipotenusa, cateto1, cateto2;
 // Console.WriteLine("Primeir cateto:");
 // cateto1 = Convert.ToDouble(Console.ReadLine());
@@ -137,7 +136,7 @@ Console.WriteLine($"O volume da esfera é: {esfera}");
 
 #region atividade 10
 
-// float distância, metros, tempo, segundos;
+// double distância, metros, tempo, segundos;
 // Console.WriteLine("Distância em metros:");
 // distância = Convert.ToDouble(Console.ReadLine());
 // Console.WriteLine("Tempo em segundos:");
