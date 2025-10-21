@@ -10,8 +10,6 @@
 // }
 #endregion
 
-
-
 #region positivo e negativo
 
 // double numerointeiro = -13 ;
@@ -28,15 +26,19 @@
 
 #endregion
 
-
 #region escola
-Boolean indoparaescola = false;
-Console.WriteLine("Indo para a escola");
-if(indoparaescola)
-{
-    Console.WriteLine("Vá pra escola");
-}
-else{
-    Console.WriteLine("Fica em casa");
-}
+// Boolean indoparaescola = false;
+// Console.WriteLine("Indo para a escola");
+// if (indoparaescola)
+// {
+//     Console.WriteLine("Vá pra escola");
+// }
+// else
+// {
+//     Console.WriteLine("Fica em casa");
+// }
 #endregion
+
+if
+
+
