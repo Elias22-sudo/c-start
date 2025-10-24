@@ -39,6 +39,22 @@
 // }
 #endregion
 
-if
+#region Atividade1
+
+int temperatura;
 
 
+
+
+
+#endregion
+
+
+#region Atividade 2
+
+
+
+
+
+
+#endregion
