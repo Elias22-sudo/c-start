@@ -1,25 +1,66 @@
 ﻿#region Atividade 1
- int numero_um;
- int numero_dois;
- int numero_tres;
+int numero_um;
+int numero_dois;
+int numero_tres;
 
- numero_um = int.Parse(Console.ReadLine()!);
- numero_dois = int.Parse(Console.ReadLine()!);
- numero_tres = int.Parse(Console.ReadLine()!);
+int maior;
+int menor;
 
-if (numero_um > 0 & numero_dois > 0 & numero_tres > 0)
+Console.WriteLine("Digite um número qualquer:   ");
+numero_um = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Digite novamente ");
+numero_dois = int.Parse(Console.ReadLine()!);
+ Console.WriteLine("Insira novamente para concluir o processo");
+numero_tres = int.Parse(Console.ReadLine()!);
+
+
+if (numero_um > numero_dois && numero_dois < numero_tres)
 {
-    Console.WriteLine("O número é maior");
+    menor
+}
+else if (numero_um <= 9 & numero_dois >= 10 & numero_tres < 8)
+{
+    Console.WriteLine($"o {numero_um} é menor que {numero_dois}");
+    Console.WriteLine($"o {numero_dois} é maior que {numero_um} e {numero_tres}");
+    Console.WriteLine($"o {numero_tres} é menor {numero_um} e {numero_dois}");
+}
+
+else if (numero_um < 8 & numero_dois <= 9 & numero_tres >= 10)
+{
+    Console.WriteLine($"o {numero_um} é menor que {numero_tres} e {numero_dois}");
+    Console.WriteLine($"o {numero_dois} é menor {numero_tres} e maior que {numero_um}");
+    Console.WriteLine($"o {numero_tres} é maior que {numero_um} e {numero_dois}");
+}
+
+
+else if (numero_um >= 10 & numero_dois <= 9 & numero_tres < 8)
+{
+    Console.WriteLine($"o {numero_um} é maior que o {numero_dois} e {numero_tres}");
+    Console.WriteLine($"o {numero_dois} é menor que {numero_um} e maior que {numero_tres}");
+    Console.WriteLine($"o {numero_tres} é menor que {numero_um}");
 
 }
-else if (numero_um < 0 & numero_dois < 0 & numero_tres < 0)
+
+
+
+else if (numero_um <= 9 & numero_dois >= 10 & numero_tres < 8)
 {
-    Console.WriteLine("O numero é menor");
+    Console.WriteLine($"o {numero_um} é menor que {numero_dois} e maior que {numero_tres}");
+    Console.WriteLine($"o {numero_dois} é maior {numero_um} e {numero_tres}");
+    Console.WriteLine($"o {numero_tres} é menor que {numero_um} e {numero_dois}");
 }
-else
+
+
+else if (numero_um < 8 & numero_dois <= 9 & numero_tres >= 10)
 {
-    Console.WriteLine("zero");
+    Console.WriteLine($"o {numero_um} é menor que {numero_tres} e {numero_dois}");
+    Console.WriteLine($"o {numero_dois} é menor {numero_tres} e  {numero_um}");
+    Console.WriteLine($"o {numero_tres} é maior que {numero_um} e {numero_dois}");
 }
+
+Console.WriteLine($"o {numero_um} é menor que {numero_tres} e {numero_dois}");
+Console.WriteLine($"o {numero_dois} é menor {numero_tres} e  {numero_um}");
+Console.WriteLine($"o {numero_tres} é maior que {numero_um} e {numero_dois}");
 
 #endregion
 
@@ -40,9 +81,21 @@ else
 
 #endregion
 
-
 #region Atividade 3
+// char letra = Console.ReadKey().KeyChar;
 
+// if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+// {
+//     Console.WriteLine("\nÉ uma vogal");
+// }
+// else if (letra =='b' || letra == 'c' || letra == 'd' || letra == 'f' || letra == 'k')
+// {
+//     Console.WriteLine("\nÉ uma consoante");
+// }
+// else
+// {
+//     Console.WriteLine("\nnada");
+// }
 
 
 
