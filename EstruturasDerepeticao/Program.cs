@@ -62,17 +62,32 @@
 #region Fatorial
 
 
-int numero;
-numero = int.Parse(Console.ReadLine()!);
 
 
-for ( int n= 1; n <=3; n++ ){
+// int numero;
+// numero = int.Parse(Console.ReadLine()!);
 
 
-
-}
+// for ( int n= 1; n <=3; n++ ){
 
 
 
+// }
+
+
+
+
+#endregion
+
+#region Coleção
+
+List<int> numeros = [1, 2, 3, 4, 5, 6];
+
+ foreach(int par in numeros)
+ {
+    if( par % 2 == 0)
+    Console.WriteLine(par);
+
+ }
 
 #endregion
