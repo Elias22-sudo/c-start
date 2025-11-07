@@ -81,13 +81,35 @@
 
 #region Coleção
 
-List<int> numeros = [1, 2, 3, 4, 5, 6];
 
- foreach(int par in numeros)
- {
-    if( par % 2 == 0)
-    Console.WriteLine(par);
+// List<int> numeros = [1, 2, 3, 4, 5, 6];
 
- }
+//  foreach(int par in numeros)
+//  {
+//     if( par % 2 == 0)
+//     Console.WriteLine(par);
+
+//  }
+
+#endregion
+
+
+
+#region Atividade 1
+
+string [] nomes = ["Luiz", "Ruan", "Mike", "Raphael", "Ana"];
+
+
+foreach ( string nome in nomes)
+{
+    if (nome[0] == 'a')
+    continue;
+   Console.WriteLine(nome);
+}
+
+
+
+
+
 
 #endregion
