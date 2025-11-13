@@ -97,15 +97,17 @@
 
 #region Atividade 1
 
-string [] nomes = ["Luiz", "Ruan", "Mike", "Raphael", "Ana"];
 
 
-foreach ( string nome in nomes)
-{
-    if (nome[0] == 'a')
-    continue;
-   Console.WriteLine(nome);
-}
+// string [] nomes = ["Luiz", "Ruan", "Mike", "Raphael", "Ana"];
+
+
+// foreach ( string nome in nomes)
+// {
+//     if (nome[0] == 'a')
+//     continue;
+//    Console.WriteLine(nome);
+// }
 
 
 
@@ -113,3 +115,5 @@ foreach ( string nome in nomes)
 
 
 #endregion
+
+
