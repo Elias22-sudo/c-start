@@ -4,7 +4,7 @@
 
 // numero = int.Parse(Console.ReadLine()!);
 
-// for(int n = 0; n <= 10; n++)
+// for(int n = 1; n <= 10; n++)
 // {
 //     Console.Write($" {numero} * {i} ={numero * i}\n");  ;
 
@@ -22,9 +22,9 @@
 int valor;
 
 valor = int.Parse(Console.ReadLine()!);
-while (valor == 0)
+while (valor != 0)
 {
-    
+
 }
 
 
@@ -33,21 +33,66 @@ while (valor == 0)
 
 
 #endregion
-
-
 #region  3
 // int number;
 // number = int.Parse(Console.ReadLine()!);
 
 // for (int i = 0; i <=10; i++)
 // {   
-      
+
 
 // }
 
 
 
 #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
